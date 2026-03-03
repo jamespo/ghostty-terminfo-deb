@@ -1,6 +1,6 @@
 # Ghostty Terminfo Debian Package
 
-This project provides a Debian package for the Ghostty terminal's `xterm-ghostty` terminfo entry.
+This project provides a Debian package for the [Ghostty](https://ghostty.org/) terminal's `xterm-ghostty` terminfo entry.
 
 ## Description
 
@@ -8,11 +8,9 @@ Ghostty uses its own terminfo entry, `xterm-ghostty`. While it's usually managed
 
 The package installs the terminfo file to `/usr/lib/terminfo/x/xterm-ghostty`.
 
-## Prerequisites
-
-To build the package, you need [fpm](https://fpm.dotmesh.com/) installed on your system.
-
 ## Building the Package
+
+To build the package, you need [fpm](https://github.com/jordansissel/fpm) installed on your system.
 
 Run the provided build script:
 
