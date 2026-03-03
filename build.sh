@@ -7,6 +7,7 @@ fpm \
   --license MIT \
   --version 0.0.1 \
   --architecture all \
+  --conflicts ghostty \
   --description "terminfo entry for ghostty" \
   --url "https://github.com/jamespo/ghostty-terminfo-deb" \
   --maintainer "<github at jamespo dot org dot uk>" \
