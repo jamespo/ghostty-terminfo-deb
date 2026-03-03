@@ -1,10 +1,10 @@
 # Ghostty Terminfo Debian Package
 
-This project provides a Debian package for the [Ghostty](https://ghostty.org/) terminal's `xterm-ghostty` terminfo entry.
+This project provides a Debian package for the [Ghostty](https://ghostty.org/) terminal's `xterm-ghostty` terminfo entry. Tested on Debian bookworm & trixie.
 
 ## Description
 
-Ghostty uses its own terminfo entry, `xterm-ghostty`. While it's usually managed by the terminal itself or its installation process, this package allows for easy deployment on Debian-based systems that may need the terminfo file installed system-wide.
+Ghostty uses its own terminfo entry, `xterm-ghostty`. This package allows for easy deployment on Debian-based systems where you have not installed ghostty itself such as servers.
 
 The package installs the terminfo file to `/usr/lib/terminfo/x/xterm-ghostty`.
 
